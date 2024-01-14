@@ -6,6 +6,7 @@
 ---@field jdk { auto_install: boolean }
 
 local config = {
+	auto_update = true,
 	root_markers = {
 		'settings.gradle',
 		'settings.gradle.kts',
